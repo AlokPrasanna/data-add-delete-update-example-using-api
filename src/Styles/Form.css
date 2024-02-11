@@ -1,0 +1,83 @@
+.popup-form{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+}
+
+.form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+    color: bisque;
+}
+
+.userIdArea, .titleArea, .bodyArea, .dataIdArea{
+    display: flex;
+    justify-content:flex-start;
+    padding: 10px;
+}
+
+#dataId{
+    width: 80px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px; 
+}
+
+#userId{
+    width: 80px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+#title{
+    width: 120px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+#bodyArea{
+    width: 450px;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px; 
+    height: auto;
+    overflow-y: auto;
+}
+
+#userId:hover,#title:hover,#bodyArea:hover,#dataId:hover{
+    background-color: #ccc;
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonAdd{
+    
+    background-color:rgb(74, 211, 74);
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.buttonAdd:hover{
+    background-color: greenyellow;
+}
